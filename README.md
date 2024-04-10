@@ -26,10 +26,6 @@ b.   Writing a reduce function c.   Writing the Driver class
 
 Program: WordCount.java
 
-
-
-
-
 Step 1:  Compile the java program
 
 
@@ -42,6 +38,7 @@ Step 2: Create a jar file
 
 
 Syntax:
+
 
 jarcf jarfilename.jar MainClassName*.class
 
@@ -96,48 +93,22 @@ Output:
 
 18
 
-3          Cloud
+3 Cloud
 
-3          Lab.
+3 Lab.
 
-2          Grid
+2 Grid
 
-2          and
-
-
-
-
+2 and
 
 Step 6:  Check the output in the Web UI at  http://localhost:50070.
  
-
-
-
 In the Utilities tab select browse file system and select the correct user. The output is available inside the
 
 output folder named user.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Step 7:  To Delete an output folder
+Step 7:  To Delete an output folder
  
-
-
 
 Syntax:
 
@@ -147,29 +118,9 @@ Output:
 
 root@a4cseh160:/#hdfsdfs -rm -R /user/out.txt
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Result:
 
 Thus the numbers of words were counted successfully by the use of Map and Reduce tasks.
-
-
-
-
-
-
-
 
 
 Review Questions:
